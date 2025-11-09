@@ -2,16 +2,6 @@
 
 本仓库为 React 前端页面项目，用于与后端 API 进行交互。项目支持本地开发和生产环境构建，构建后的静态资源可发布至 Nginx 进行代理访问。
 
-## 项目目录结构
-
-.
-├── public
-├── src
-├── .env.development
-├── .env.production
-├── package.json
-└── README.md
-
 ## 环境配置
 
 项目使用 `.env` 文件配置环境变量，需要在项目根目录下创建以下两个文件：
